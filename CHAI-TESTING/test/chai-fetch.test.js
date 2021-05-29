@@ -10,7 +10,7 @@ const { expect } = chai;
 
 describe('Chai-fetch', () => {
 
-    beforeEach(() => { mockServer.start(8080) });
+    beforeEach(() => { mockServer.start(9091) });
     afterEach(() => mockServer.stop());
 
     describe('.responseText', () => {
@@ -24,7 +24,7 @@ describe('Chai-fetch', () => {
         it('should not match responses with matching bodies', () => {
             mockServer.get('/match').thenReply(500, 'matching body')
                 .then(() =>
-                    expect(fetch('http://localhost:8080/match')).to.have.status(500)
+                    expect(fetch('http://localhost:9091/match')).to.have.status(500)
                 );
         });
     });

@@ -7,5 +7,5 @@ let esperado = 3
 /* expect(resultado).toBe(esperado)
  should(resultado).toBe(esperado) */
 
-esperoQue(resultado).seaIgual(esperado)
-console.log('todo ok')
+// esperoQue(resultado).seaIgual(esperado)
+console.log('todo ok ')

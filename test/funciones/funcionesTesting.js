@@ -1,9 +1,9 @@
 //mi libreria de testing
 
-const esperoQue = (dato) => {
+const esperoQue = (dato, esperado) => {
     return {
         seaIgual: () => {
-            if (datao !== esperado) {
+            if (dato !== esperado) {
                 throw new Error(`${dato} es distinto al ${esperado}`)
             }
         }
@@ -14,10 +14,10 @@ const prueba = (titulo, funcion) => {
     try {
         funcion()
         console.log(`ok ${titulo}`)
-    } catch(error) {
+    } catch (error) {
         console.error(`ok ${titulo}`)
         console.log(error)
     }
 }
 
-module.exports={esperoQue,prueba}
+module.exports = { esperoQue, prueba }

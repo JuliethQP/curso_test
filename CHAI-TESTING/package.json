@@ -1,0 +1,26 @@
+{
+  "name": "chai-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example-asset.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-fetch": "^0.3.1",
+    "mocha": "^8.4.0",
+    "mockserver": "^3.1.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "graphql-tools": "^7.0.5",
+    "http-server-mock": "^0.2.1",
+    "node-fetch": "^2.6.1"
+  }
+}

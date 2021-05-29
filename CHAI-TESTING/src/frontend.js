@@ -5,9 +5,7 @@ const fetchService = async () => {
     let json = null;
     try {
         response = await fetch('http://localhost:8080/match')
-        console.log('hola response', response)
         json = await response.json()
-        console.log('hola json', json)
     } catch (err) {
         console.log(err)
     }

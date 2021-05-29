@@ -10,7 +10,6 @@ describe('fetchService', () => {
 
     beforeEach(() => { mockServer.start(8080) });
     afterEach(() => mockServer.stop());
-
     describe('fetchService', () => {
         it('fetchService', () => {
             mockServer.get('/match').thenReply(200, {

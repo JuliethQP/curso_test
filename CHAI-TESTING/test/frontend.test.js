@@ -4,7 +4,6 @@ const mockServer = require("http-server-mock").getLocal();
 const { fetchService } = require('../src/frontend');
 
 chai.use(chaiFetch);
-
 const { expect } = chai;
 
 describe('fetchService', () => {
@@ -21,8 +20,8 @@ describe('fetchService', () => {
                     expect(response).to.be.equal({
                         message: "Welcome to our Bookstore!"
                     });
-                }).catch(err => {
-                    console.log('*********Error', err)
+                }).catch(err => {                    
+                    // console.log('*********Error', err)
                 });
         });
     });

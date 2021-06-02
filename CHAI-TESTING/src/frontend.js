@@ -8,7 +8,7 @@ module.exports = {
             response = await fetch('http://localhost:8080/match')
             json = await response.json()
         } catch (err) {
-            console.log(err)
+            // console.log(err)
         }
         return json
     }

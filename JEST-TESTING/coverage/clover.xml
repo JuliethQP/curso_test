@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1622595809289" clover="3.2.0">
-  <project timestamp="1622595809290" name="All files">
-    <metrics statements="19" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="1" elements="22" coveredelements="10" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
-    <file name="request.js" path="C:\Users\57311\Documents\curso_test\JEST-TESTING\funciones\request.js">
-      <metrics statements="14" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
-      <line num="5" count="0" type="stmt"/>
-      <line num="6" count="0" type="stmt"/>
-      <line num="7" count="0" type="stmt"/>
-      <line num="8" count="0" type="stmt"/>
-      <line num="9" count="0" type="stmt"/>
-      <line num="10" count="0" type="stmt"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="12" count="0" type="stmt"/>
-      <line num="13" count="0" type="stmt"/>
-      <line num="14" count="0" type="stmt"/>
-    </file>
-    <file name="user.js" path="C:\Users\57311\Documents\curso_test\JEST-TESTING\funciones\user.js">
-      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-    </file>
+<coverage generated="1622764232591" clover="3.2.0">
+  <project timestamp="1622764232591" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2" elements="15" coveredelements="15" complexity="0" loc="10" ncloc="10" packages="2" files="2" classes="2"/>
+    <package name="funciones">
+      <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="suma.js" path="C:\Users\57311\Documents\curso_test\JEST-TESTING\funciones\suma.js">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="test">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="user.js" path="C:\Users\57311\Documents\curso_test\JEST-TESTING\test\user.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

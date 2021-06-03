@@ -12,3 +12,5 @@
         "plugins": ["@babel/transform-runtime"]
         //"ignore": ["node_modules"]
     }
+
+*enlace de ejemplos: https://doc.ebichu.cc/jest/docs/es-ES/tutorial-async.html#content

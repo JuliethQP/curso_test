@@ -1,0 +1,30 @@
+{
+  "name": "curso_test",
+  "version": "1.0.0",
+  "description": "**BDD ejemplo** \\\r `FEATURE` : Filtrar datos por medio de un buscador \\\r   &#8594; Como usuario web quiero que, se implemente un buscador para los productos disponibles",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.3.4"
+  },
+  "devDependencies": {
+    "chai-fetch": "^0.3.1",
+    "jest": "^27.0.3",
+    "mocha": "^8.4.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliethQP/curso_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliethQP/curso_test/issues"
+  },
+  "homepage": "https://github.com/JuliethQP/curso_test#readme"
+}
